@@ -88,7 +88,7 @@ read_raw_values <- function(path, sheet,
   readxl::read_excel(
     path = path,
     sheet = sheet,
-    skip = 5,
+    skip = skip,
     na = c("", "-", "_", "*")
   ) |> data.table::data.table()
 }
@@ -252,7 +252,7 @@ get_clean_values <- function(path, sheet) {
   
   n <- length(raw_samples)
   
-  raw_values <- read_raw_values(path, sheet)
+  raw_values <- read_raw_values(path, sheet, skip = 5)
   
   header_table <- build_header_table(
     n,
