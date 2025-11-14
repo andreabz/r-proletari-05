@@ -87,21 +87,10 @@ README.md                # Questo file
    ```
    
 3. Eseguire lo script `utilizzo.R`
-   
-## Criteri di valutazione dei dati secondo il Decreto Legislativo 155/2010
-
-Il report confronta i dati osservati con i valori limite di legge, ad esempio:
-
-- PM10 → media giornaliera ≤ 50 µg/m³ (max 35 superamenti/anno).
-- NO₂ → max oraria ≤ 200 µg/m³ (max 18 superamenti/anno).
-- O₃ → max media mobile 8h ≤ 120 µg/m³ (max 25 superamenti/anno).
-- CO → max media mobile 8h ≤ 10 mg/m³.
-- SO₂ → max giornaliera ≤ 125 µg/m³ (max 3 superamenti/anno).
-- SO₂ → max oraria ≤ 350 µg/m³ (max 24 superamenti/anno).
 
 ## Output
 
-Una applicazione web `shiny` disponibile all'indirizzo [https://abazz.shinyapps.io/r-proletari-04/](https://abazz.shinyapps.io/r-proletari-04/)
+Una `data.table` con 60985 righe e 12 colonne.
 
 ## Contatti e contributi
 
@@ -115,6 +104,6 @@ Ogni bug è una **contraddizione interna del sistema**: segnalarlo è un atto ri
 Se l'app ti è utile, **condividila**.  
 Se ti piace, **forkala**.  
 Se non funziona, **riparala**.  
-L’importante è **non restare fermi**.
+L'importante è **non restare fermi**.
 
 > *“La statistica al servizio del popolo, non del profitto.”*
